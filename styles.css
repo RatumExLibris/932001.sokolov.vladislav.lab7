@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+body{
+    padding: 10px;
+    position: absolute;
+}
+
+div.square {
+    background-color: red;
+    position: absolute;
+}
+
+div.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
+}
+
+div.circle {
+    position: absolute;
+    background: green;
+    clip-path: circle(50%);
+    height: 50px;
+    width: 50px;
+}
